@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "jiaiu232.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Jia Liu"
