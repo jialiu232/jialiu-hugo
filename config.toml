@@ -120,7 +120,7 @@ enableEmoji = true
   [[menu.header]]
     name = "More journeys"
     title = "More journeys to go"
-    url = "/todos/"
+    url = "/more_journeys/"
     weight = 4
 
 

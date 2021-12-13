@@ -139,7 +139,7 @@ print(results_1.summary())
     ## Model:                            OLS   Adj. R-squared (uncentered):              0.353
     ## Method:                 Least Squares   F-statistic:                              83.00
     ## Date:                Mon, 13 Dec 2021   Prob (F-statistic):                    5.09e-16
-    ## Time:                        13:19:13   Log-Likelihood:                         -403.54
+    ## Time:                        13:26:35   Log-Likelihood:                         -403.54
     ## No. Observations:                 150   AIC:                                      809.1
     ## Df Residuals:                     149   BIC:                                      812.1
     ## Df Model:                           1                                                  
@@ -185,7 +185,7 @@ print(results_2.summary())
     ## Model:                            OLS   Adj. R-squared:                  0.702
     ## Method:                 Least Squares   F-statistic:                     352.4
     ## Date:                Mon, 13 Dec 2021   Prob (F-statistic):           5.49e-41
-    ## Time:                        13:19:15   Log-Likelihood:                -104.36
+    ## Time:                        13:26:37   Log-Likelihood:                -104.36
     ## No. Observations:                 150   AIC:                             212.7
     ## Df Residuals:                     148   BIC:                             218.7
     ## Df Model:                           1                                         
@@ -252,7 +252,7 @@ model_sfa.summary()
   <th>Date:</th>             <td>Mon, 13 Dec 2021</td> <th>  Prob (F-statistic):</th> <td>5.49e-41</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>13:19:17</td>     <th>  Log-Likelihood:    </th> <td> -104.36</td>
+  <th>Time:</th>                 <td>13:26:39</td>     <th>  Log-Likelihood:    </th> <td> -104.36</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   150</td>      <th>  AIC:               </th> <td>   212.7</td>
@@ -322,7 +322,7 @@ model_sfa.summary()
   <th>Date:</th>             <td>Mon, 13 Dec 2021</td> <th>  Prob (F-statistic):</th>          <td>5.09e-16</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>13:19:18</td>     <th>  Log-Likelihood:    </th>          <td> -403.54</td>
+  <th>Time:</th>                 <td>13:26:40</td>     <th>  Log-Likelihood:    </th>          <td> -403.54</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   150</td>      <th>  AIC:               </th>          <td>   809.1</td>
