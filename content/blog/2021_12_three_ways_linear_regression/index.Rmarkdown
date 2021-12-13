@@ -51,7 +51,7 @@ Sys.which("python")
 #if (reticulate::py_module_available("matplotlib")) message("'matplotlib' found.")
 ```
 
-## Why we are here?
+## Why are we here?
 
 Recently I helped another PhD student in our department to solve a problem in her python script that performs linear regression. In this script, two linear regression models based on the input data were generated using two methods (`LinearRegression()` from `sklearn.linear_model`; the `OLS` function from `statsmodels.api`). The [R-square](https://www.investopedia.com/terms/r/r-squared.asp) as well as [Adjusted R-Square](https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/adjusted-r2/) calculated from these two models were very different. That inspired me to start this post: while there are always different methods that performs the same process, disagreement among the results generated from different methods can be a headache. Here we will go through three widely used methods that build linear regression models in python: `sklearn`, `statsmodel.api`, and `statsmodels.formula.api` using a randomly generated dataset, and see how we can avoid the problem. 
 
