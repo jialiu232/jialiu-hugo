@@ -13,7 +13,7 @@ layout: single
 #output: html_document
 ---
 
-## Why are we here?
+## So why are we here?
 
 Recently I helped another PhD student in our department to solve a problem in her python script that performs linear regression. In this script, two linear regression models based on the input data were generated using two methods (`LinearRegression()` from `sklearn.linear_model`; the `OLS` function from `statsmodels.api`). The [R-square](https://www.investopedia.com/terms/r/r-squared.asp) as well as [Adjusted R-Square](https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/adjusted-r2/) calculated from these two models were very different. That inspired me to start this post: while there are always different methods that performs the same process, disagreement among the results generated from different methods can be a headache. Here we will go through three widely used methods that build linear regression models in python: `sklearn`, `statsmodel.api`, and `statsmodels.formula.api` using a randomly generated dataset, and see how we can avoid the problem.
 
@@ -139,7 +139,7 @@ print(results_1.summary())
     ## Model:                            OLS   Adj. R-squared (uncentered):              0.353
     ## Method:                 Least Squares   F-statistic:                              83.00
     ## Date:                Mon, 13 Dec 2021   Prob (F-statistic):                    5.09e-16
-    ## Time:                        13:10:46   Log-Likelihood:                         -403.54
+    ## Time:                        13:19:13   Log-Likelihood:                         -403.54
     ## No. Observations:                 150   AIC:                                      809.1
     ## Df Residuals:                     149   BIC:                                      812.1
     ## Df Model:                           1                                                  
@@ -185,7 +185,7 @@ print(results_2.summary())
     ## Model:                            OLS   Adj. R-squared:                  0.702
     ## Method:                 Least Squares   F-statistic:                     352.4
     ## Date:                Mon, 13 Dec 2021   Prob (F-statistic):           5.49e-41
-    ## Time:                        13:10:49   Log-Likelihood:                -104.36
+    ## Time:                        13:19:15   Log-Likelihood:                -104.36
     ## No. Observations:                 150   AIC:                             212.7
     ## Df Residuals:                     148   BIC:                             218.7
     ## Df Model:                           1                                         
@@ -252,7 +252,7 @@ model_sfa.summary()
   <th>Date:</th>             <td>Mon, 13 Dec 2021</td> <th>  Prob (F-statistic):</th> <td>5.49e-41</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>13:10:52</td>     <th>  Log-Likelihood:    </th> <td> -104.36</td>
+  <th>Time:</th>                 <td>13:19:17</td>     <th>  Log-Likelihood:    </th> <td> -104.36</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   150</td>      <th>  AIC:               </th> <td>   212.7</td>
@@ -322,7 +322,7 @@ model_sfa.summary()
   <th>Date:</th>             <td>Mon, 13 Dec 2021</td> <th>  Prob (F-statistic):</th>          <td>5.09e-16</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>13:10:54</td>     <th>  Log-Likelihood:    </th>          <td> -403.54</td>
+  <th>Time:</th>                 <td>13:19:18</td>     <th>  Log-Likelihood:    </th>          <td> -403.54</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   150</td>      <th>  AIC:               </th>          <td>   809.1</td>
