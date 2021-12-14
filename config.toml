@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "peach"
+  theme = "sky"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -108,8 +108,8 @@ enableEmoji = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
+    name = "Blogs"
+    title = "Blogs"
     url = "/blog/"
     weight = 2
   [[menu.header]]
@@ -118,9 +118,9 @@ enableEmoji = true
     url = "/project/"
     weight = 3
   [[menu.header]]
-    name = "More journeys"
-    title = "More journeys to go"
-    url = "/more_journeys/"
+    name = "Collection"
+    title = "A collection"
+    url = "/collection/"
     weight = 4
 
 

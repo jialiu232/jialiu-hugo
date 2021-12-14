@@ -6,9 +6,9 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
+  I am interested in promoting sustainable agriculture from the soil microbiome perspective. In particular, I work on improving the detection of microbiome functional genes that are involved in the important soil processes, such as nitrogen cycling. Previously, I developed [MetaFunPrimer](https://github.com/pommevilla/MetaFunPrimer), a command line-based pipeline to design primers for high-throughput qPCR. Learn more about my current project in *PROJECTS* page.
   
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
+  In my free time, I enjoy to read and think with a cup of tea, do sports, just started indoor climbing! I am a passionate learner in data science and programming, enjoying working on related projects both individually and in collaboration. 
 show_outro: true
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
