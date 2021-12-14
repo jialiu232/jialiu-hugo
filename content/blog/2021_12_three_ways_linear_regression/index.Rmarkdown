@@ -8,7 +8,10 @@ draft: no
 images: null
 series: null
 tags: null
-categories: null
+categories:
+  - python
+  - regression
+  - statistics
 layout: single
 #output: html_document
 ---

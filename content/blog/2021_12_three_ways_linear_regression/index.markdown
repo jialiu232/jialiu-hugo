@@ -8,7 +8,10 @@ draft: no
 images: null
 series: null
 tags: null
-categories: null
+categories:
+  - python
+  - regression
+  - statistics
 layout: single
 #output: html_document
 ---
@@ -138,8 +141,8 @@ print(results_1.summary())
     ## Dep. Variable:                      y   R-squared (uncentered):                   0.358
     ## Model:                            OLS   Adj. R-squared (uncentered):              0.353
     ## Method:                 Least Squares   F-statistic:                              83.00
-    ## Date:                Mon, 13 Dec 2021   Prob (F-statistic):                    5.09e-16
-    ## Time:                        13:26:35   Log-Likelihood:                         -403.54
+    ## Date:                Tue, 14 Dec 2021   Prob (F-statistic):                    5.09e-16
+    ## Time:                        15:20:58   Log-Likelihood:                         -403.54
     ## No. Observations:                 150   AIC:                                      809.1
     ## Df Residuals:                     149   BIC:                                      812.1
     ## Df Model:                           1                                                  
@@ -184,8 +187,8 @@ print(results_2.summary())
     ## Dep. Variable:                      y   R-squared:                       0.704
     ## Model:                            OLS   Adj. R-squared:                  0.702
     ## Method:                 Least Squares   F-statistic:                     352.4
-    ## Date:                Mon, 13 Dec 2021   Prob (F-statistic):           5.49e-41
-    ## Time:                        13:26:37   Log-Likelihood:                -104.36
+    ## Date:                Tue, 14 Dec 2021   Prob (F-statistic):           5.49e-41
+    ## Time:                        15:21:00   Log-Likelihood:                -104.36
     ## No. Observations:                 150   AIC:                             212.7
     ## Df Residuals:                     148   BIC:                             218.7
     ## Df Model:                           1                                         
@@ -249,10 +252,10 @@ model_sfa.summary()
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th> <td>   352.4</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Mon, 13 Dec 2021</td> <th>  Prob (F-statistic):</th> <td>5.49e-41</td>
+  <th>Date:</th>             <td>Tue, 14 Dec 2021</td> <th>  Prob (F-statistic):</th> <td>5.49e-41</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>13:26:39</td>     <th>  Log-Likelihood:    </th> <td> -104.36</td>
+  <th>Time:</th>                 <td>15:21:02</td>     <th>  Log-Likelihood:    </th> <td> -104.36</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   150</td>      <th>  AIC:               </th> <td>   212.7</td>
@@ -319,10 +322,10 @@ model_sfa.summary()
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th>          <td>   83.00</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Mon, 13 Dec 2021</td> <th>  Prob (F-statistic):</th>          <td>5.09e-16</td>
+  <th>Date:</th>             <td>Tue, 14 Dec 2021</td> <th>  Prob (F-statistic):</th>          <td>5.09e-16</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>13:26:40</td>     <th>  Log-Likelihood:    </th>          <td> -403.54</td>
+  <th>Time:</th>                 <td>15:21:03</td>     <th>  Log-Likelihood:    </th>          <td> -403.54</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   150</td>      <th>  AIC:               </th>          <td>   809.1</td>

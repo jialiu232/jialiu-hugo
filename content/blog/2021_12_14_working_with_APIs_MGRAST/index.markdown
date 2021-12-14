@@ -8,7 +8,9 @@ draft: no
 images: null
 series: null
 tags: null
-categories: null
+categories:
+  - python
+  - API
 layout: single
 #output: html_document
 ---
@@ -22,7 +24,7 @@ layout: single
 
 Sometimes you may want to retrieve data from some publicly available data sources, such as youtube, netflix, or twitter, for your data science projects. Then you will probably need to work with APIs created by these data sources.   
 
-In this post, we will write a python script to retrieve some functional gene information from [MG-RAST](https://www.mg-rast.org/), *an open source, open submission web application server that suggests automatic phylogenetic and functional analysis of metagenomes*.
+In this post, we will write a python command line script to retrieve some functional gene information from [MG-RAST](https://www.mg-rast.org/), *an open source, open submission web application server that suggests automatic phylogenetic and functional analysis of metagenomes*.
 
 ---
 
