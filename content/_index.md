@@ -2,7 +2,7 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: Welcome to my website! I am a PhD student in Iowa State University majoring in bioinformatics and computational biology (minor in statistics). You can learn more about me in the *ABOUT* session. I plan to post my learning journeys in programming & data science on *BLOG* page. You will find some projects I am working on in *PROJECTS*. *MORE JOURNEYS* may include some fun projects or blogs I plan to do the next, or some ideas & inspirations I get. Hope you enjoy yourself here!
+description: Welcome to my website! I am a PhD student in Iowa State University majoring in bioinformatics and computational biology (minor in statistics). You can learn more about me in the *ABOUT* session. I plan to post my learning journeys in programming & data science on *BLOGS* page. You will find some projects I am working on in *PROJECTS*. *COLLECTION* includes a collection of my ideas & inspirations. Hope you enjoy yourself here!
 image_left: true
 images:
 - img/revoir.jpg
